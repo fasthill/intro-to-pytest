@@ -3,7 +3,7 @@ This module contains a basic accumulator class.
 Its purpose is to show how to use the pytest framework for testing classes.
 """
 
-
+#testtttttttttttt
 # --------------------------------------------------------------------------------
 # Class: Accumulator
 # --------------------------------------------------------------------------------
