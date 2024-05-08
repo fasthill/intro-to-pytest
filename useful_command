@@ -1,0 +1,10 @@
+# pytest 결과 report 생성
+python -m pytest --html=report.html
+# 전체 파일중 어느 정도가 report 되었는지 확인하고 report 생성. 아래는 stuff 폴더에 대하여 test
+python -m pytest --cov=stuff --cov-report html
+# pytest.ini 내에 marker로 정의된 항목이 fixture에 포함되어 있는 경우,
+# 아래는 정의된 marker 중에서 api에 대하여 수행
+python -m pytest -m api
+# test할 항목이 많을 경우, 프로세서를 3개로 정의하여 동시 진행(아래)
+python -m pytest -n 3
+
